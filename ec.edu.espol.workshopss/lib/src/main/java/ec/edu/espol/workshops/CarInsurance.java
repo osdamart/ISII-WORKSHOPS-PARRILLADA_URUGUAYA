@@ -3,7 +3,7 @@ package ec.edu.espol.workshops;
 public class CarInsurance {
 	public static void main(String[] args) {
 		Cliente cl1= new Cliente(24,"M","no casado",true);
-		Compañia com = new Compañia();
+		Compania com = new Compania();
 		System.out.println(cl1);
 		System.out.println(com.calcularPrima(cl1));
 		
@@ -62,7 +62,7 @@ class Cliente {
 }
 
 
-class Compañia {
+class Compania {
 	
 	int primaBase=500;
 
