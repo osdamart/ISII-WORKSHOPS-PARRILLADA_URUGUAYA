@@ -10,10 +10,10 @@ public class CarInsurance {
 }
 
 class Cliente {
-	private int edad;
-	private String sexo;
-	private String estado;
-	private boolean permiso;
+	private int edad;		 // Variable para la edad de la persona.
+	private String sexo; 	 // Variable para ver que sexo es la persona.
+	private String estado;	 // Variable para guardar si esta casado.
+	private boolean permiso; // Variable para guardar el permiso.
 	
 	public Cliente(int edad, String sexo, String estado, boolean permiso) {
 		this.edad = edad;
@@ -74,10 +74,10 @@ class Compañia {
 		System.out.println("No tiene permiso de conducir");
 		return -1;
 		}
-	if(cl.getSexo()=="M" & cl.getEstado()== "no casado" & cl.getEdad()<25) {
+	if(cl.getSexo().equals("M") & cl.getEstado().equals("no casado") & cl.getEdad()<25) {  //Correguido
 		primaBase = primaBase + 1500;
 		}
-	if(cl.getSexo()=="F" | cl.getEstado()== "casado") {
+	if(cl.getSexo().equals("F") | cl.getEstado().equals("casado")) {					 // Correguido
 		primaBase = primaBase - 200;
 		}
 	if(cl.getEdad()>=45 & cl.getEdad()<65) {
