@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<BugCollection version="4.4.2" sequence="1" timestamp="1634959203073" analysisTimestamp="1634959202703" release="">
+  <Project projectName="lib">
+    <Jar>C:\Users\New\git\ISII-WORKSHOPS-PARRILLADA_URUGUAYA\ec.edu.espol.workshopss\lib\bin\test</Jar>
+    <Jar>C:\Users\New\git\ISII-WORKSHOPS-PARRILLADA_URUGUAYA\ec.edu.espol.workshopss\lib\bin\main</Jar>
+    <AuxClasspathEntry>C:\Users\New\git\ISII-WORKSHOPS-PARRILLADA_URUGUAYA\ec.edu.espol.workshopss\lib\bin\main</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\New\git\ISII-WORKSHOPS-PARRILLADA_URUGUAYA\ec.edu.espol.workshopss\lib\bin\test</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\New\.p2\pool\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.0.v20211012-1059\jre\lib\jrt-fs.jar</AuxClasspathEntry>
+    <SrcDir>C:\Users\New\git\ISII-WORKSHOPS-PARRILLADA_URUGUAYA\ec.edu.espol.workshopss\lib\src\test\java</SrcDir>
+    <SrcDir>\lib\src\main\resources</SrcDir>
+    <SrcDir>C:\Users\New\git\ISII-WORKSHOPS-PARRILLADA_URUGUAYA\ec.edu.espol.workshopss\lib\src\main\java</SrcDir>
+    <SrcDir>\lib\src\test\resources</SrcDir>
+  </Project>
+  <BugInstance type="ES_COMPARING_STRINGS_WITH_EQ" priority="3" rank="14" abbrev="ES" category="BAD_PRACTICE" first="1">
+    <Class classname="ec.edu.espol.workshops.Compañia">
+      <SourceLine classname="ec.edu.espol.workshops.Compañia" sourcefile="CarInsurance.java" sourcepath="ec/edu/espol/workshops/CarInsurance.java"/>
+    </Class>
+    <Method classname="ec.edu.espol.workshops.Compañia" name="calcularPrima" signature="(Lec/edu/espol/workshops/Cliente;)I" isStatic="false">
+      <SourceLine classname="ec.edu.espol.workshops.Compañia" start="70" end="88" startBytecode="0" endBytecode="95" sourcefile="CarInsurance.java" sourcepath="ec/edu/espol/workshops/CarInsurance.java"/>
+    </Method>
+    <Type descriptor="Ljava/lang/String;" role="TYPE_FOUND">
+      <SourceLine classname="java.lang.String" start="140" end="4652" sourcefile="String.java" sourcepath="java/lang/String.java"/>
+    </Type>
+    <String value="F" role="STRING_CONSTANT"/>
+    <Method classname="ec.edu.espol.workshops.Cliente" name="getSexo" signature="()Ljava/lang/String;" isStatic="false" role="METHOD_RETURN_VALUE_OF">
+      <SourceLine classname="ec.edu.espol.workshops.Cliente" start="36" end="36" startBytecode="0" endBytecode="46" sourcefile="CarInsurance.java" sourcepath="ec/edu/espol/workshops/CarInsurance.java"/>
+    </Method>
+    <SourceLine classname="ec.edu.espol.workshops.Compañia" start="82" end="82" startBytecode="103" endBytecode="103" sourcefile="CarInsurance.java" sourcepath="ec/edu/espol/workshops/CarInsurance.java"/>
+    <SourceLine classname="ec.edu.espol.workshops.Compañia" start="82" end="82" startBytecode="103" endBytecode="103" sourcefile="CarInsurance.java" sourcepath="ec/edu/espol/workshops/CarInsurance.java"/>
+    <Property name="edu.umd.cs.findbugs.detect.RefComparisonWarningProperty.STATIC_AND_UNKNOWN" value="true"/>
+  </BugInstance>
+  <BugInstance type="ES_COMPARING_STRINGS_WITH_EQ" priority="3" rank="14" abbrev="ES" category="BAD_PRACTICE" first="1">
+    <Class classname="ec.edu.espol.workshops.Compañia">
+      <SourceLine classname="ec.edu.espol.workshops.Compañia" sourcefile="CarInsurance.java" sourcepath="ec/edu/espol/workshops/CarInsurance.java"/>
+    </Class>
+    <Method classname="ec.edu.espol.workshops.Compañia" name="calcularPrima" signature="(Lec/edu/espol/workshops/Cliente;)I" isStatic="false">
+      <SourceLine classname="ec.edu.espol.workshops.Compañia" start="70" end="88" startBytecode="0" endBytecode="95" sourcefile="CarInsurance.java" sourcepath="ec/edu/espol/workshops/CarInsurance.java"/>
+    </Method>
+    <Type descriptor="Ljava/lang/String;" role="TYPE_FOUND">
+      <SourceLine classname="java.lang.String" start="140" end="4652" sourcefile="String.java" sourcepath="java/lang/String.java"/>
+    </Type>
+    <String value="M" role="STRING_CONSTANT"/>
+    <Method classname="ec.edu.espol.workshops.Cliente" name="getSexo" signature="()Ljava/lang/String;" isStatic="false" role="METHOD_RETURN_VALUE_OF">
+      <SourceLine classname="ec.edu.espol.workshops.Cliente" start="36" end="36" startBytecode="0" endBytecode="46" sourcefile="CarInsurance.java" sourcepath="ec/edu/espol/workshops/CarInsurance.java"/>
+    </Method>
+    <SourceLine classname="ec.edu.espol.workshops.Compañia" start="79" end="79" startBytecode="44" endBytecode="44" sourcefile="CarInsurance.java" sourcepath="ec/edu/espol/workshops/CarInsurance.java"/>
+    <SourceLine classname="ec.edu.espol.workshops.Compañia" start="79" end="79" startBytecode="44" endBytecode="44" sourcefile="CarInsurance.java" sourcepath="ec/edu/espol/workshops/CarInsurance.java"/>
+    <Property name="edu.umd.cs.findbugs.detect.RefComparisonWarningProperty.STATIC_AND_UNKNOWN" value="true"/>
+  </BugInstance>
+  <BugInstance type="ES_COMPARING_STRINGS_WITH_EQ" priority="3" rank="14" abbrev="ES" category="BAD_PRACTICE" first="1">
+    <Class classname="ec.edu.espol.workshops.Compañia">
+      <SourceLine classname="ec.edu.espol.workshops.Compañia" sourcefile="CarInsurance.java" sourcepath="ec/edu/espol/workshops/CarInsurance.java"/>
+    </Class>
+    <Method classname="ec.edu.espol.workshops.Compañia" name="calcularPrima" signature="(Lec/edu/espol/workshops/Cliente;)I" isStatic="false">
+      <SourceLine classname="ec.edu.espol.workshops.Compañia" start="70" end="88" startBytecode="0" endBytecode="95" sourcefile="CarInsurance.java" sourcepath="ec/edu/espol/workshops/CarInsurance.java"/>
+    </Method>
+    <Type descriptor="Ljava/lang/String;" role="TYPE_FOUND">
+      <SourceLine classname="java.lang.String" start="140" end="4652" sourcefile="String.java" sourcepath="java/lang/String.java"/>
+    </Type>
+    <String value="casado" role="STRING_CONSTANT"/>
+    <Method classname="ec.edu.espol.workshops.Cliente" name="getEstado" signature="()Ljava/lang/String;" isStatic="false" role="METHOD_RETURN_VALUE_OF">
+      <SourceLine classname="ec.edu.espol.workshops.Cliente" start="44" end="44" startBytecode="0" endBytecode="46" sourcefile="CarInsurance.java" sourcepath="ec/edu/espol/workshops/CarInsurance.java"/>
+    </Method>
+    <SourceLine classname="ec.edu.espol.workshops.Compañia" start="82" end="82" startBytecode="117" endBytecode="117" sourcefile="CarInsurance.java" sourcepath="ec/edu/espol/workshops/CarInsurance.java"/>
+    <SourceLine classname="ec.edu.espol.workshops.Compañia" start="82" end="82" startBytecode="117" endBytecode="117" sourcefile="CarInsurance.java" sourcepath="ec/edu/espol/workshops/CarInsurance.java"/>
+    <Property name="edu.umd.cs.findbugs.detect.RefComparisonWarningProperty.STATIC_AND_UNKNOWN" value="true"/>
+  </BugInstance>
+  <BugInstance type="ES_COMPARING_STRINGS_WITH_EQ" priority="3" rank="14" abbrev="ES" category="BAD_PRACTICE" first="1">
+    <Class classname="ec.edu.espol.workshops.Compañia">
+      <SourceLine classname="ec.edu.espol.workshops.Compañia" sourcefile="CarInsurance.java" sourcepath="ec/edu/espol/workshops/CarInsurance.java"/>
+    </Class>
+    <Method classname="ec.edu.espol.workshops.Compañia" name="calcularPrima" signature="(Lec/edu/espol/workshops/Cliente;)I" isStatic="false">
+      <SourceLine classname="ec.edu.espol.workshops.Compañia" start="70" end="88" startBytecode="0" endBytecode="95" sourcefile="CarInsurance.java" sourcepath="ec/edu/espol/workshops/CarInsurance.java"/>
+    </Method>
+    <Type descriptor="Ljava/lang/String;" role="TYPE_FOUND">
+      <SourceLine classname="java.lang.String" start="140" end="4652" sourcefile="String.java" sourcepath="java/lang/String.java"/>
+    </Type>
+    <String value="no casado" role="STRING_CONSTANT"/>
+    <Method classname="ec.edu.espol.workshops.Cliente" name="getEstado" signature="()Ljava/lang/String;" isStatic="false" role="METHOD_RETURN_VALUE_OF">
+      <SourceLine classname="ec.edu.espol.workshops.Cliente" start="44" end="44" startBytecode="0" endBytecode="46" sourcefile="CarInsurance.java" sourcepath="ec/edu/espol/workshops/CarInsurance.java"/>
+    </Method>
+    <SourceLine classname="ec.edu.espol.workshops.Compañia" start="79" end="79" startBytecode="58" endBytecode="58" sourcefile="CarInsurance.java" sourcepath="ec/edu/espol/workshops/CarInsurance.java"/>
+    <SourceLine classname="ec.edu.espol.workshops.Compañia" start="79" end="79" startBytecode="58" endBytecode="58" sourcefile="CarInsurance.java" sourcepath="ec/edu/espol/workshops/CarInsurance.java"/>
+    <Property name="edu.umd.cs.findbugs.detect.RefComparisonWarningProperty.STATIC_AND_UNKNOWN" value="true"/>
+  </BugInstance>
+  <BugInstance type="NS_DANGEROUS_NON_SHORT_CIRCUIT" priority="1" rank="15" abbrev="NS" category="STYLE" first="1">
+    <Class classname="ec.edu.espol.workshops.Compañia">
+      <SourceLine classname="ec.edu.espol.workshops.Compañia" sourcefile="CarInsurance.java" sourcepath="ec/edu/espol/workshops/CarInsurance.java"/>
+    </Class>
+    <Method classname="ec.edu.espol.workshops.Compañia" name="calcularPrima" signature="(Lec/edu/espol/workshops/Cliente;)I" isStatic="false">
+      <SourceLine classname="ec.edu.espol.workshops.Compañia" start="70" end="88" startBytecode="0" endBytecode="409" sourcefile="CarInsurance.java" sourcepath="ec/edu/espol/workshops/CarInsurance.java"/>
+    </Method>
+    <SourceLine classname="ec.edu.espol.workshops.Compañia" start="79" end="79" startBytecode="82" endBytecode="82" sourcefile="CarInsurance.java" sourcepath="ec/edu/espol/workshops/CarInsurance.java"/>
+    <SourceLine classname="ec.edu.espol.workshops.Compañia" start="79" end="79" startBytecode="82" endBytecode="82" sourcefile="CarInsurance.java" sourcepath="ec/edu/espol/workshops/CarInsurance.java"/>
+  </BugInstance>
+  <Errors errors="0" missingClasses="0"></Errors>
+  <FindBugsSummary timestamp="Fri, 22 Oct 2021 21:25:30 -0500" total_classes="5" referenced_classes="19" total_bugs="5" total_size="75" num_packages="1" java_version="17" vm_version="17+35" cpu_seconds="15.91" clock_seconds="442.52" peak_mbytes="527.89" alloc_mbytes="2048.00" gc_seconds="0.03" priority_3="4" priority_1="1">
+    <PackageStats package="ec.edu.espol.workshops" total_bugs="5" total_types="5" total_size="75" priority_3="4" priority_1="1">
+      <ClassStats class="ec.edu.espol.workshops.CarInsurance" sourceFile="CarInsurance.java" interface="false" size="9" bugs="0"/>
+      <ClassStats class="ec.edu.espol.workshops.Cliente" sourceFile="CarInsurance.java" interface="false" size="34" bugs="0"/>
+      <ClassStats class="ec.edu.espol.workshops.Compañia" sourceFile="CarInsurance.java" interface="false" size="20" bugs="5" priority_3="4" priority_1="1"/>
+      <ClassStats class="ec.edu.espol.workshops.Library" sourceFile="Library.java" interface="false" size="5" bugs="0"/>
+      <ClassStats class="ec.edu.espol.workshops.LibraryTest" sourceFile="LibraryTest.java" interface="false" size="7" bugs="0"/>
+    </PackageStats>
+    <FindBugsProfile>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassInfoAnalysisEngine" totalMilliseconds="99" invocations="404" avgMicrosecondsPerInvocation="245" maxMicrosecondsPerInvocation="12383" standardDeviationMicrosecondsPerInvocation="781"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassDataAnalysisEngine" totalMilliseconds="60" invocations="405" avgMicrosecondsPerInvocation="149" maxMicrosecondsPerInvocation="620" standardDeviationMicrosecondsPerInvocation="90"/>
+      <ClassProfile name="de.tobject.findbugs.builder.FindBugs2Eclipse" totalMilliseconds="52" invocations="2" avgMicrosecondsPerInvocation="26305" maxMicrosecondsPerInvocation="44350" standardDeviationMicrosecondsPerInvocation="18045"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FieldItemSummary" totalMilliseconds="23" invocations="19" avgMicrosecondsPerInvocation="1242" maxMicrosecondsPerInvocation="7138" standardDeviationMicrosecondsPerInvocation="2066"/>
+      <ClassProfile name="edu.umd.cs.findbugs.OpcodeStack$JumpInfoFactory" totalMilliseconds="17" invocations="88" avgMicrosecondsPerInvocation="202" maxMicrosecondsPerInvocation="2626" standardDeviationMicrosecondsPerInvocation="307"/>
+      <ClassProfile name="edu.umd.cs.findbugs.util.TopologicalSort" totalMilliseconds="12" invocations="369" avgMicrosecondsPerInvocation="34" maxMicrosecondsPerInvocation="918" standardDeviationMicrosecondsPerInvocation="75"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FindNoSideEffectMethods" totalMilliseconds="12" invocations="19" avgMicrosecondsPerInvocation="674" maxMicrosecondsPerInvocation="4898" standardDeviationMicrosecondsPerInvocation="1143"/>
+    </FindBugsProfile>
+  </FindBugsSummary>
+  <ClassFeatures></ClassFeatures>
+  <History>
+    <AppVersion sequence="0" timestamp="1634959203073" release="" codeSize="0" numClasses="0"/>
+  </History>
+</BugCollection>
