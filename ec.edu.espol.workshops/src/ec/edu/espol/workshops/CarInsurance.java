@@ -6,7 +6,14 @@ public class CarInsurance {
 		Compania com = new Compania();
 		System.out.println(cl1);
 		System.out.println(com.calcularPrima(cl1));
+<<<<<<< HEAD:ec.edu.espol.workshops/src/ec/edu/espol/workshops/CarInsurance.java
 		}
+=======
+		
+	}	
+	
+	
+>>>>>>> SpotBugs:ec.edu.espol.workshops/lib/src/main/java/ec/edu/espol/workshops/CarInsurance.java
 }
 
 class Cliente {

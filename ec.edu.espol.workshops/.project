@@ -2,8 +2,11 @@
 <projectDescription>
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> Checkstyle
+=======
+>>>>>>> SpotBugs
 	<name>ec.edu.espol.workshopss</name>
 	<comment>Project ec.edu.espol.workshops created by Buildship.</comment>
 =======
@@ -17,6 +20,7 @@
 			<name>org.eclipse.buildship.core.gradleprojectbuilder</name>
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 			<arguments>
 			</arguments>
@@ -26,6 +30,8 @@
 >>>>>>> PMd
 =======
 >>>>>>> Checkstyle
+=======
+>>>>>>> SpotBugs
 			<arguments>
 			</arguments>
 		</buildCommand>
@@ -33,11 +39,14 @@
 	<natures>
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 		<nature>org.eclipse.jdt.core.javanature</nature>
 >>>>>>> PMd
 =======
 >>>>>>> Checkstyle
+=======
+>>>>>>> SpotBugs
 		<nature>org.eclipse.buildship.core.gradleprojectnature</nature>
 	</natures>
 </projectDescription>

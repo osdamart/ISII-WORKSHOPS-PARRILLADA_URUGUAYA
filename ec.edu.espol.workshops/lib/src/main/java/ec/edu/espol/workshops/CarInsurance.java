@@ -1,14 +1,31 @@
+<<<<<<< HEAD
 
+=======
+>>>>>>> SpotBugs
 package ec.edu.espol.workshops;
 
 public class CarInsurance {
 	public static void main(String[] args) {
+<<<<<<< HEAD
 <<<<<<< HEAD:ec.edu.espol.workshops/lib/src/main/java/ec/edu/espol/workshops/CarInsurance.java
+=======
+>>>>>>> SpotBugs
 		Cliente cl1= new Cliente(24,"M","no casado",true);
 		Compania com = new Compania();
 		System.out.println(cl1);
 		System.out.println(com.calcularPrima(cl1));
+<<<<<<< HEAD
 		}
+=======
+<<<<<<< HEAD:ec.edu.espol.workshops/src/ec/edu/espol/workshops/CarInsurance.java
+		}
+=======
+		
+	}	
+	
+	
+>>>>>>> SpotBugs:ec.edu.espol.workshops/lib/src/main/java/ec/edu/espol/workshops/CarInsurance.java
+>>>>>>> SpotBugs
 }
 
 class Cliente {
@@ -17,6 +34,7 @@ class Cliente {
 	private String estado;	 // Variable para guardar si esta casado.
 	private boolean permiso; // Variable para guardar el permiso.
 	
+<<<<<<< HEAD
 =======
 		Cliente cl1 = new Cliente(24, "M", "no casado", true);
 		Compañia com = new Compañia();
@@ -41,6 +59,14 @@ class Cliente {
 		this.permiso = permiso;
 	}
 <<<<<<< HEAD:ec.edu.espol.workshops/lib/src/main/java/ec/edu/espol/workshops/CarInsurance.java
+=======
+	public Cliente(int edad, String sexo, String estado, boolean permiso) {
+		this.edad = edad;
+		this.sexo = sexo;
+		this.estado= estado;
+		this.permiso = permiso;
+	}
+>>>>>>> SpotBugs
 
 	public int getEdad() {
 		return edad;
@@ -75,6 +101,7 @@ class Cliente {
 		}
 	public String toString() {
 		return "Edad:" + edad + " " + "sexo:" + sexo + " " + "Estado civil:" + estado + " " + "Permiso de conducir:" + permiso;
+<<<<<<< HEAD
 =======
 	public int getEdad(){
 		return edad;
@@ -108,6 +135,12 @@ class Cliente {
 }
 
 <<<<<<< HEAD:ec.edu.espol.workshops/lib/src/main/java/ec/edu/espol/workshops/CarInsurance.java
+=======
+	}
+
+}
+
+>>>>>>> SpotBugs
 
 <<<<<<< HEAD:ec.edu.espol.workshops/lib/src/main/java/ec/edu/espol/workshops/CarInsurance.java
 class Compania {
@@ -133,6 +166,7 @@ class Compañia {
 		}
 	if(cl.getSexo().equals("F") | cl.getEstado().equals("casado")) {					 // Correguido
 		primaBase = primaBase - 200;
+<<<<<<< HEAD
 =======
 class Compañia {
 	int primaBase = 500;
@@ -155,10 +189,13 @@ class Compañia {
 		if (cl.getEdad() >= 45 & cl.getEdad() < 65) {
 			primaBase = primaBase - 100;
 >>>>>>> Checkstyle:ec.edu.espol.workshopss/lib/src/main/java/ec/edu/espol/workshops/CarInsurance.java
+=======
+>>>>>>> SpotBugs
 		}
 	if(cl.getEdad()>=45 & cl.getEdad()<65) {
 		primaBase = primaBase - 100;
 	}
+<<<<<<< HEAD
 <<<<<<< HEAD:ec.edu.espol.workshops/lib/src/main/java/ec/edu/espol/workshops/CarInsurance.java
 	return primaBase;
 	}
@@ -166,3 +203,8 @@ class Compañia {
 =======
 }
 >>>>>>> Checkstyle:ec.edu.espol.workshopss/lib/src/main/java/ec/edu/espol/workshops/CarInsurance.java
+=======
+	return primaBase;
+	}
+}
+>>>>>>> SpotBugs
