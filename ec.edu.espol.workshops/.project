@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <projectDescription>
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> Checkstyle
 	<name>ec.edu.espol.workshopss</name>
 	<comment>Project ec.edu.espol.workshops created by Buildship.</comment>
 =======
@@ -13,6 +16,7 @@
 		<buildCommand>
 			<name>org.eclipse.buildship.core.gradleprojectbuilder</name>
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 			<arguments>
 			</arguments>
@@ -20,15 +24,20 @@
 		<buildCommand>
 			<name>org.eclipse.jdt.core.javabuilder</name>
 >>>>>>> PMd
+=======
+>>>>>>> Checkstyle
 			<arguments>
 			</arguments>
 		</buildCommand>
 	</buildSpec>
 	<natures>
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 		<nature>org.eclipse.jdt.core.javanature</nature>
 >>>>>>> PMd
+=======
+>>>>>>> Checkstyle
 		<nature>org.eclipse.buildship.core.gradleprojectnature</nature>
 	</natures>
 </projectDescription>
