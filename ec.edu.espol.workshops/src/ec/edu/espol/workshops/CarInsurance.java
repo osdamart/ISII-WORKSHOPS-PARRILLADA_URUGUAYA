@@ -74,6 +74,9 @@ class Compania {
 		if (!(cl.getEstado() == "casado" | cl.getEstado() == "no casado")) {
 			return -1;
 		}
+		if (cl.getEdad() < 0) {
+			return -1;
+		}
 		if (cl.getEdad() > 80) {
 			System.out.println("Debido a su edad no cumple los requisitos");
 			return -1;
