@@ -65,7 +65,7 @@ class Cliente {
 
 class Compania {
 
-	int primaBase = 500;
+	int primaBase = 600;
 
 	public int calcularPrima(Cliente cliente) {
 		Cliente cl = cliente;
