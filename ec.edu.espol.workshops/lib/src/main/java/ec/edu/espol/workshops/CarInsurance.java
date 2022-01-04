@@ -64,6 +64,7 @@ class Cliente {
 }
 
 class Compania {
+	
 
 	int primaBase = 601;
 
