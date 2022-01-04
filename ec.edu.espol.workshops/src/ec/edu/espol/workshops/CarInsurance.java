@@ -6,14 +6,14 @@ public class CarInsurance {
 		Compania com = new Compania();
 		System.out.println(cl1);
 		System.out.println(com.calcularPrima(cl1));
-<<<<<<< HEAD:ec.edu.espol.workshops/src/ec/edu/espol/workshops/CarInsurance.java
+
 		}
-=======
+
 		
 	}	
 	
 	
->>>>>>> SpotBugs:ec.edu.espol.workshops/lib/src/main/java/ec/edu/espol/workshops/CarInsurance.java
+
 }
 
 class Cliente {
@@ -67,32 +67,22 @@ class Cliente {
 }
 
 
-<<<<<<< HEAD:ec.edu.espol.workshops/lib/src/main/java/ec/edu/espol/workshops/CarInsurance.java
-class Compania {
-	
-=======
-
-
 class Compañia {
->>>>>>> PMd:ec.edu.espol.workshops/src/ec/edu/espol/workshops/CarInsurance.java
+
 	int primaBase=500;
 	public int calcularPrima(Cliente cliente) {
 		Cliente cl = cliente;
-	if(cl.getEdad()>80) {
-		System.out.println("Debido a su edad no cumple los requisitos");
+		
+	if(cl.getEdad()>80 && !cl.getPermiso()) {
 		return -1;
-		}
-	if(!cl.getPermiso()) {
-		System.out.println("No tiene permiso de conducir");
-		return -1;
-		}
-	if(cl.getSexo().equals("M") & cl.getEstado().equals("no casado") & cl.getEdad()<25) {  //Correguido
+	}
+	if(cl.getSexo().equals("M") && cl.getEstado().equals("no casado") && cl.getEdad()<25) {  
 		primaBase = primaBase + 1500;
 		}
-	if(cl.getSexo().equals("F") | cl.getEstado().equals("casado")) {					 // Correguido
+	if(cl.getSexo().equals("F") || cl.getEstado().equals("casado")) {					
 		primaBase = primaBase - 200;
 		}
-	if(cl.getEdad()>=45 & cl.getEdad()<65) {
+	if(cl.getEdad()>=45 && cl.getEdad()<65) {
 		primaBase = primaBase - 100;
 	}
 	return primaBase;
