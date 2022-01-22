@@ -6,15 +6,13 @@ public class CarInsurance {
 		Compania com = new Compania();
 		System.out.println(cl1);
 		System.out.println(com.calcularPrima(cl1));
-<<<<<<< HEAD:ec.edu.espol.workshops/src/ec/edu/espol/workshops/CarInsurance.java
+
 		}
-=======
+
 		
 	}	
 	
 	
->>>>>>> SpotBugs:ec.edu.espol.workshops/lib/src/main/java/ec/edu/espol/workshops/CarInsurance.java
-}
 
 class Cliente {
 	private int edad;		 // Variable para la edad de la persona.
@@ -67,14 +65,12 @@ class Cliente {
 }
 
 
-<<<<<<< HEAD:ec.edu.espol.workshops/lib/src/main/java/ec/edu/espol/workshops/CarInsurance.java
-class Compania {
-	
-=======
+
+
 
 
 class Compañia {
->>>>>>> PMd:ec.edu.espol.workshops/src/ec/edu/espol/workshops/CarInsurance.java
+
 	int primaBase=500;
 	public int calcularPrima(Cliente cliente) {
 		Cliente cl = cliente;
@@ -94,6 +90,12 @@ class Compañia {
 		}
 	if(cl.getEdad()>=45 & cl.getEdad()<65) {
 		primaBase = primaBase - 100;
+	}
+	if(cl.getEstado().equals("casado") & cl.getEdad()>30 & cl.getEdad()<60) {
+		primaBase = primaBase - 50;
+	}
+	if( cl.getEstado().equals("no casado") & cl.getSexo().equals("F")  & cl.getEdad()>60) {
+		primaBase = primaBase - 50;
 	}
 	return primaBase;
 	}
