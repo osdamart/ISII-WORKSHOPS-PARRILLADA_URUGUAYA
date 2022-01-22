@@ -92,7 +92,7 @@ class Compañia {
 		primaBase = primaBase - 100;
 	}
 	if(cl.getEstado().equals("casado") & cl.getEdad()>30 & cl.getEdad()<60) {
-		primaBase = primaBase - 50;
+		primaBase = primaBase - 100;
 	}
 	if( cl.getEstado().equals("no casado") & cl.getSexo().equals("F")  & cl.getEdad()>60) {
 		primaBase = primaBase - 50;
